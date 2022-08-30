@@ -8,7 +8,7 @@ int main(void)
     float words = 1;
     float sentence = 0;
     {
-        char *a[2000];
+        char a[2000];
         printf("Text: ");
         fgets(a, sizeof(a), stdin); //Takes text input
     

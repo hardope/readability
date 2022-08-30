@@ -1,21 +1,24 @@
-from cs50 import get_string
 # gets text input
-text = get_string("Text: ")
+text = input("Text: ")
 letters = 0
 words = 1
 sentence = 0
+
 # counts letters
 for i in text:
     if (i.isalpha()):
         letters += 1
+
 # counts words
 for j in text:
     if (j == " "):
         words += 1
+
 # counts sentences
 for l in text:
     if (l == '.' or l == '!' or l == '?'):
         sentence += 1
+        
 
 L = (letters / words) * 100
 S = (sentence / words) * 100
