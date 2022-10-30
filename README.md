@@ -1,6 +1,6 @@
 # Readability
 Program That Grades text based on the complexity.
-This projects allows you to input a text and have it graded according to how readable it is.
+This program allows you to input a text and have it graded according to how readable it is.
 I wrote the projects in two languages, C and python.
 
 ## Operations
